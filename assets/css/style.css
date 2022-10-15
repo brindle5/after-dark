@@ -1,3 +1,43 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
+
+header {
+    height: 600px;
+    width: auto;
+    color: snow;
+    background-color: rgb(50, 50, 50);
+    font-family: Libre Baskerville, Verdana, sans-serif;
+    font-weight: 400;
+    }
+
+header > h1 {
+    font-weight: 700;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    }
+
+body {
+    font-family: Libre Baskerville, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+#our-tours {
+    height: 600px;
+    width: auto;
+    color: rgb(50, 50, 50); 
+    background-color: snow;
+    }
+
+
+footer {
+    height: 100px;
+    width: auto;
+    color: snow;
+    background-color: rgb(50, 50, 50);
+}
+
