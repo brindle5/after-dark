@@ -7,44 +7,35 @@
 }
 
 header {
-    height: 600px;
-    width: auto;
-    color: snow;
-    background-color: rgb(50, 50, 50);
-    font-family: Libre Baskerville, Verdana, sans-serif;
-    font-weight: 700;
-    }
-
-header > h1 {
-    font-size: 5rem;
-    letter-spacing: 3px;
-    }
-
-header >  nav > ul {
-    font-size: xx-large;
-    letter-spacing: 4px;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    }
-
-body {
-    font-family: Libre Baskerville, Verdana, sans-serif;
-    font-weight: 400;
+    height: 600px;      
 }
 
-#our-tours {
+#left-header {
+    padding-top: 20px;
     height: 600px;
-    width: auto;
-    color: rgb(50, 50, 50); 
-    background-color: snow;
-    }
-
-
-footer {
-    height: 100px;
-    width: auto;
-    color: snow;
-    background-color: rgb(50, 50, 50);
+    width: 40%;
+    background-color: green;
+    float: left;
 }
 
+#right-header {
+    padding-top: 20px;    
+    height: 600px;
+    width: 60%;
+    background-color: orange;
+    float: right;
+}
+
+#header-image {
+        height: 375px;
+        width: 375px;
+        padding: 50px;
+        border-radius: 50%;
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        margin: 0 auto;
+        position: relative;
+        top: 60px;
+        background: url('../images/graveyard.jpg') center center;        
+        }
