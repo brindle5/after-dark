@@ -16,7 +16,7 @@ header {
     width: 40%;
     background-color: #3a3a3a;
     float: left;
-    border-bottom: #BE2D2D 5px solid;
+    border-bottom: #BE2D2D 10px solid;
 }
 
 #right-header {
@@ -25,22 +25,20 @@ header {
     width: 60%;
     background-color: #3a3a3a;
     float: right;
-    border-bottom: #BE2D2D 5px solid;
+    border-bottom: #BE2D2D 10px solid;
 }
 
 #header-image {
-        height: 375px;
-        width: 375px;
-        padding: 50px;
-        border-radius: 50%;
-        border-style: solid;
-        border-color: #BE2D2D;
-        border-width: 10px;
-        margin: 0 auto;
-        position: relative;
-        top: 60px;
-        background: url('../images/graveyard.jpg') center center;        
-        }
+    height: 375px;
+    width: 375px;
+    padding: 50px;
+    border-radius: 50%;
+    border: #BE2D2D solid 10px;    
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+    background: url('../images/graveyard.jpg') center center;        
+}
 
 body {
     font-family: Libre-Baskerville, Verdana, sans-serif;
@@ -63,7 +61,7 @@ body {
 nav {
     height: 75px;
     background-color: #3a3a3a;
-    border-bottom: #BE2D2D 5px solid;
+    border-bottom: #BE2D2D 10px solid;
     list-style-type: none;
     text-align: center;
     margin: 0;
@@ -77,11 +75,37 @@ nav > ul > li {
     padding-right: 60px;
     padding-left: 60px;
     padding-top: 10px;
-
 }
 
 nav > ul > li:hover {
     color:#BE2D2D;
 }
 
+section {
+    height: 600px;
+}
+
+#ghost-tour-info {
+    height: 300px;
+    width: 66%;
+    background-color: green;
+    float: left;
+}
+
+#ghost-image-bg {
+    height: 300px;
+    width: 34%;
+    background-color: #3a3a3a;
+    float: right;
+}
+
+#ghost-image {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    border: #BE2D2D solid 7px;
+    background-color: green;
+    position: relative;
+    margin: 0 auto;
+}
 
