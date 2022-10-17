@@ -16,6 +16,7 @@ header {
     width: 40%;
     background-color: #3a3a3a;
     float: left;
+    border-bottom: #BE2D2D 5px solid;
 }
 
 #right-header {
@@ -24,6 +25,7 @@ header {
     width: 60%;
     background-color: #3a3a3a;
     float: right;
+    border-bottom: #BE2D2D 5px solid;
 }
 
 #header-image {
@@ -57,3 +59,29 @@ body {
     font-size: 2rem;
     color: snow;
 }
+
+nav {
+    height: 75px;
+    background-color: #3a3a3a;
+    border-bottom: #BE2D2D 5px solid;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {       
+    color: snow;  
+    display: inline-block;  
+    font-size: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 10px;
+
+}
+
+nav > ul > li:hover {
+    color:#BE2D2D;
+}
+
+
