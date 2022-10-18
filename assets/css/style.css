@@ -178,8 +178,9 @@ nav > ul > li:hover {
 #about-us {
     height: 300px;
     width: 66%;
-    background-color: blue;
+    background-color: #3a3a3a;
     float: left;
+    border-bottom: #BE2D2D 10px solid;
 }
 
 #us-bg {
@@ -187,6 +188,7 @@ nav > ul > li:hover {
     width: 34%;
     background-color: #3a3a3a;
     float: right;
+    border-bottom: #BE2D2D 10px solid;
 }
 
 #us-picture {
@@ -194,16 +196,22 @@ nav > ul > li:hover {
     width: 275px;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
-    background-color: green;
+    background: url('../images/scary_faces.jpg') no-repeat center center;
     position: relative;
     margin: 0 auto;
 }
 
-#about-us {
+#about-us-heading {
     font-weight: 700;
     font-size: 3rem;
     padding-left: 300px;
     padding-top: 5px;
     padding-bottom: 10px; 
+    color: snow;
+}
+
+#team-background {
+    padding-top: 20px;
+    padding-left: 50px;
     color: snow;
 }
