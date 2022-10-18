@@ -215,3 +215,50 @@ nav > ul > li:hover {
     padding-left: 50px;
     color: snow;
 }
+
+#sign-up {
+    height: 450px;
+    background-color: #3a3a3a;
+}
+
+#left-sign-up {
+    height: 450px;
+    width: 33%;
+    background-color: #3a3a3a;
+    float: left;
+}
+
+#right-sign-up {
+    height: 450px;
+    width: 33%;
+    background-color: #3a3a3a;
+    float: right;
+}
+
+#sign-up-form {
+    height: 450px;
+    margin: 0 auto;
+    background-color: orange;
+}
+
+.sign-up-text {
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #BE2D2D;
+    border: black 2px solid;
+}
+#submit {
+    padding: 5px;
+    margin: 10px 0;
+    font-weight: 700;
+    background-color: snow;
+    letter-spacing: 1px;
+    color: black;
+    border: black 3px solid;
+}
+
+#submit:hover {
+    font-weight: 700;
+    color: #BE2D2D;
+    background-color: snow;
+}
