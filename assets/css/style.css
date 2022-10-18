@@ -77,18 +77,22 @@ nav > ul > li {
     padding-top: 10px;
 }
 
-nav > ul > li:hover {
+nav > ul > li:active {
     color:#BE2D2D;
 }
 
-section {
+nav > ul > li:hover {
+    text-decoration: underline;
+}
+
+#tours {
     height: 600px;
 }
 
 #ghost-tour-info {
     height: 300px;
     width: 66%;
-    background-color: green;
+    background-color: #3a3a3a;
     float: left;
 }
 
@@ -104,8 +108,102 @@ section {
     width: 275px;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
+    background: url('../images/ghosts.jpg') no-repeat center center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#our-tours {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    color: snow;
+}
+
+#ghosts-stratford {
+    padding-left: 50px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    color: snow;
+}
+
+#ghosts-stratford-info {
+    padding-left: 50px;
+    color: snow;
+}
+
+#murder-image-bg {
+    height: 300px;
+    width: 34%;
+    background-color: #3a3a3a;
+    float: left;
+}
+
+#murder-image {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    border: #BE2D2D solid 7px;
+    background: url('../images/tower_of_bones.jpg') no-repeat center center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#murder-tour-info {
+    height: 300px;
+    width: 66%;
+    background-color: #3a3a3a;
+    float: right;
+}
+
+#murder-stratford {
+    padding-right: 50px;
+    font-size: 2rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: snow;
+}
+
+#murder-stratford-info {
+    padding-right: 50px;
+    color: snow;
+}
+
+#us {
+    height: 300px;
+}
+
+#about-us {
+    height: 300px;
+    width: 66%;
+    background-color: blue;
+    float: left;
+}
+
+#us-bg {
+    height: 300px;
+    width: 34%;
+    background-color: #3a3a3a;
+    float: right;
+}
+
+#us-picture {
+    height: 275px;
+    width: 275px;
+    border-radius: 50%;
+    border: #BE2D2D solid 7px;
     background-color: green;
     position: relative;
     margin: 0 auto;
 }
 
+#about-us {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    color: snow;
+}
