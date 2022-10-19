@@ -95,19 +95,47 @@
    </section>
 
    <section id="sign-up">
-        <div id="left-sign-up"></div>
-        <div id="right-sign-up"></div>
+        <div id="sign-up-bg">
+            <div id="sign-up-image"></div>
+        </div>
+
         <div id="sign-up-form">
+
+            <h2 id="sign-up-heading">Sign up for a tour</h2>
+            <p id="sign-up-para">Complete the form below and we'll be in touch!</p>
+
+
+
             <form action="https://formdump.codeinstitute.net/" method="post">
+
                 <label for="name"><strong>Name:</strong></label>
                 <input id="name" type="text" class="sign-up-text" required>
+
                 <br>
+
                 <label for="email"><strong>Email: </strong></label>
                 <input id="email" type="email" class= "sign-up-text" required>
+
                 <br>
+
+                <p>I'm interested in...</p>
+
+                <label for="ghosts"><strong>Ghosts of Stratford tour</strong></label>
+                <input type="radio" value="ghosts" name="tour-type" class="radio-option" id="ghosts" required>
+                
+                <label for="murder"><strong>Murder and Mayhem tour</strong></label>
+                <input type="radio" value="murder" name="tour-type" class="radio-option" id="murder">
+                
+                <label for="both"><strong>Both tours</strong></label>
+                <input type="radio" value="both" name="tour-type" class="radio-option" id="both">
+
+                <br>
+
                 <input type="submit" value="I want to be afraid" id="submit">
             </form>
-        </div>
+          </div>       
+
+
    </section>
 
 
