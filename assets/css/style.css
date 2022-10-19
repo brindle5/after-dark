@@ -85,6 +85,8 @@ nav > ul > li:hover {
     text-decoration: underline;
 }
 
+/*Our tours section*/
+
 #tours {
     height: 600px;
 }
@@ -171,6 +173,8 @@ nav > ul > li:hover {
     color: snow;
 }
 
+/*About us section*/
+
 #us {
     height: 300px;
 }
@@ -216,6 +220,8 @@ nav > ul > li:hover {
     color: snow;
 }
 
+/*Sign up form section*/
+
 #sign-up {
     height: 300px;
     background-color: #3a3a3a;
@@ -233,7 +239,7 @@ nav > ul > li:hover {
     width: 275px;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
-    background-color: green;
+    background: url('../images/skull_on_books.jpg') no-repeat center center;
     margin: 0 auto;
 }
 
@@ -260,7 +266,7 @@ nav > ul > li:hover {
 .sign-up-text {
     padding: 5px;
     margin: 10px 0;
-    background-color: #BE2D2D;
+    background-color: snow;
     border: black 2px solid;
 }
 
@@ -286,6 +292,13 @@ form > p {
     padding-bottom: 10px;
 }
 
-.radio-option {
-    padding-bottom: 10px;
+form > p, label {
+    color: snow;
+}
+
+/*Footer section*/
+
+footer {
+    height: 150px;
+    background-color: green;
 }
