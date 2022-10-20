@@ -37,7 +37,7 @@ header {
     margin: 0 auto;
     position: relative;
     top: 60px;
-    background: url('../images/graveyard.jpg') center center;        
+    background: url('../images/creepy_church.jpg') no-repeat center center;
 }
 
 body {
@@ -319,4 +319,8 @@ footer {
     list-style-type: none;
     display: inline;
     padding: 20px 100px;
+}
+
+.social-media:visited{
+    color: black;
 }
