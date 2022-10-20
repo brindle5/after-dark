@@ -300,5 +300,23 @@ form > p, label {
 
 footer {
     height: 150px;
-    background-color: green;
+    background-color: #BE2D2D;
+    color: snow;
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    list-style-type: none;     
+}
+
+.social-media {
+    font-size: 175%;
+    color: snow;
+    list-style-type: none;
+    display: inline;
+    padding: 20px 100px;
 }
