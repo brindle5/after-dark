@@ -342,8 +342,11 @@ footer {
     }    
 }
 
-/*For screens smaller than*/
+/*For screens smaller than 950px*/
 
 @media screen and (max-width: 950px) {
 
-   
+    #ghosts-stratford-info, #murder-tour-info, #about-us {
+        font-size: small;
+    }
+}   
