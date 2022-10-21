@@ -333,6 +333,7 @@ footer {
 @media screen and (max-width: 1250px) {
      
     #right-header-title {
+        width: 75%;
         font-size: 5rem;
         padding-bottom: 20px;
     }
@@ -347,6 +348,42 @@ footer {
 @media screen and (max-width: 950px) {
 
     #ghosts-stratford-info, #murder-tour-info, #about-us {
-        font-size: small;
+    font-size: small;
     }
 }   
+
+@media screen and (max-width: 800px) {
+
+    #right-header-title {
+        font-size: 4rem;
+    }
+
+    #slogan {
+        font-size: 2rem;
+    }
+
+    nav > ul > li {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #ghosts-stratford, #ghosts-stratford-info {
+        padding-left: 15px;
+    }
+
+    #murder-stratford, #murder-stratford-info {
+        padding-left: 30px;
+    }
+
+    #team-background {
+        padding-left: 15px;
+    }
+   
+    #sign-up-bg {
+        width: 40%;
+    }
+
+    #sign-up-form {
+        width: 60%;
+    }
+}
