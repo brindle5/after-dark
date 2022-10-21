@@ -187,6 +187,15 @@ nav > ul > li:hover {
     border-bottom: #BE2D2D 10px solid;
 }
 
+#about-us-heading {
+    font-weight: 700;
+    font-size: 3rem;
+    padding-left: 300px;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    color: snow;
+}
+
 #us-bg {
     height: 300px;
     width: 34%;
@@ -205,14 +214,6 @@ nav > ul > li:hover {
     margin: 0 auto;
 }
 
-#about-us-heading {
-    font-weight: 700;
-    font-size: 3rem;
-    padding-left: 300px;
-    padding-top: 5px;
-    padding-bottom: 10px; 
-    color: snow;
-}
 
 #team-background {
     padding-top: 20px;
@@ -324,3 +325,25 @@ footer {
 .social-media:visited{
     color: black;
 }
+
+/*Media queries*/
+
+/*For screens smaller than 1250px*/
+
+@media screen and (max-width: 1250px) {
+     
+    #right-header-title {
+        font-size: 5rem;
+        padding-bottom: 20px;
+    }
+
+    #our-tours, #about-us-heading {
+        font-size: 2rem;
+    }    
+}
+
+/*For screens smaller than*/
+
+@media screen and (max-width: 950px) {
+
+   
