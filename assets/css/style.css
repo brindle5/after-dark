@@ -77,7 +77,7 @@ nav > ul > li {
     padding-top: 10px;
 }
 
-nav > ul > li:active {
+nav > ul > li:visited {
     color:#BE2D2D;
 }
 
