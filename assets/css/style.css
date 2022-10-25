@@ -80,7 +80,7 @@ nav > ul > li {
 }
 
 nav > ul > li:visited {
-    color:#BE2D2D;
+    color: #BE2D2D;
 }
 
 nav > ul > li:hover {
@@ -324,8 +324,8 @@ footer {
     padding: 20px 100px;
 }
 
-.social-media:visited{
-    color: black;
+.social-media:visited {
+    color: #BE2D2D;
 }
 
 /*Media queries*/
