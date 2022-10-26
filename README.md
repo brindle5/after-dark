@@ -47,4 +47,19 @@ In the future, Ian and Debbie hope to develop the site so customers can book or 
 
 ![Lighthouse accesibility report](assets/media/lighthouse_report.png)
 
+## **Deployment**
+The site was deployed to GitHub. 
+* To deploy the project in the GitHub repository, go to the Settings tab and select Pages. 
+* Select Master Branch from the dropdown source menu. GitHub will provide the link.
+
+The link to the project can be found here: https://brindle5.github.io/after-dark/#tours
+
+## **Credits**
+
+###  Content:
+* The code for the initial CSS formatting and the social media links are from the Code Institute Love Running project.
+* The icons for the social media links are from Font Awesome.
+
+### Media:
+* The photos are from Pexels and Unsplash.
 
