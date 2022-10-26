@@ -33,9 +33,18 @@ In the future, Ian and Debbie hope to develop the site so customers can book or 
 
 ## **Testing**
 
-After Dark Tours has a number of responsive design features which means it can be viewed on a variety of screen sizes from desktop through to tablet computers.
-The site is not optimised to be viewed using a mobile device.
-The site has been tested on different browsers: Chrome, Edge, Firefox, and Safari.
-The different sections are easy to read and understandable.
-The form can only be submitted by using the required data: name and email address, plus the selection of one of the three radio buttons and I have confirmed that the submit button works.
+* After Dark Tours has a number of responsive design features which means it can be viewed on a variety of screen sizes from desktop through to tablet computers.
+* The site is not optimised to be viewed using a mobile device.
+* The site has been tested on different browsers: Chrome, Edge, Firefox, and Safari.
+* The different sections are easy to read and understandable.
+* The form can only be submitted by using the required data: name and email address, plus the selection of one of the three radio buttons and I have confirmed that the submit button works.
+
+### Validator Testing
+
+* HTML: no errors were returned when passing through the W3C validator.
+* CSS: no errors were returned when passing through the Jigsaw validator.
+* Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools. 
+
+![Lighthouse accesibility report](assets/media/lighthouse_report.png)
+
 
