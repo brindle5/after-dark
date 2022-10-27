@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
-/*Code for margin, padding and border originally from Code Institute*/
+/* Code for margin, padding and border originally from Code Institute */
 
 * {
     margin: 0;
@@ -12,38 +12,33 @@ html {
     scroll-behavior: smooth;
 }
 
-/*Ignore header height*/
-
-header {
-    height: 600px;
-}
-
-#left-header {
+#left-header-image {
     padding-top: 20px;
-    height: 600px;
     width: 40%;
-    float: left;
-    border-bottom: #BE2D2D 10px solid;
-}
-
-#right-header {
-    padding-top: 20px;    
-    height: 600px;
-    width: 60%;
-    float: right;
-    border-bottom: #BE2D2D 10px solid;
-}
-
-#header-image {
+    float: left;    
     height: 375px;
     width: 375px;
     padding: 50px;
     border-radius: 50%;
     border: #BE2D2D solid 10px;    
-    margin: 0 auto;
     position: relative;
     top: 40px;
+    left: 40px;
     background: url('../images/creepy_church.jpg') no-repeat center center;
+}
+
+#right-header-title {
+    width: 60%;
+    float: right;
+}
+
+#heading {
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-size: 6.5rem;
+    color: snow;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 body {
@@ -52,21 +47,19 @@ body {
     background-color: #3a3a3a;
 }
 
-#right-header-title {
-    font-weight: 700;
-    letter-spacing: 3px;
-    font-size: 7rem;
-    color: snow;
-}
-
 #slogan {
     font-weight: 700;
     font-size: 2rem;
     color: snow;
+    padding-bottom: 20px;
+}
+
+.clear-format {
+    clear: both
 }
 
 nav {
-    height: 75px;
+    border-top: #BE2D2D 10px solid;
     border-bottom: #BE2D2D 10px solid;
     list-style-type: none;
     text-align: center;
@@ -78,9 +71,7 @@ nav > ul > li {
     color: snow;  
     display: inline-block;  
     font-size: 20px;
-    padding-right: 60px;
-    padding-left: 60px;
-    padding-top: 10px;
+    padding: 10px 60px;
 }
 
 nav > ul > li a:visited, nav > ul > li a {
@@ -94,44 +85,36 @@ nav > ul > li a:hover {
 
 /* Our tours section */
 
-#tours {
-    height: 600px;
+#our-tours {
+    font-weight: 700;
+    font-size: 4rem;
+    padding-left: 350px;
+    padding-top: 5px;
+    padding-bottom: 10px; 
+    color: snow;
 }
 
 #ghost-tour-info {
-    height: 300px;
-    width: 66%;
+    width: 75%;
     float: left;
 }
 
-#ghost-image-bg {
-    height: 300px;
-    width: 34%;
-    float: right;
-}
-
 #ghost-image {
+    width: 25%;
+    float: right;
     height: 275px;
     width: 275px;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
     background: url('../images/ghosts.jpg') no-repeat center center;
     position: relative;
-    margin: 0 auto;
-}
-
-#our-tours {
-    font-weight: 700;
-    font-size: 3rem;
-    padding-left: 300px;
-    padding-top: 5px;
-    padding-bottom: 10px; 
-    color: snow;
+    top: 40px;
+    right: 60px;
 }
 
 #ghosts-stratford {
     padding-left: 50px;
-    font-size: 2rem;
+    font-size: 3rem;
     padding-bottom: 10px;
     color: snow;
 }
@@ -139,51 +122,44 @@ nav > ul > li a:hover {
 #ghosts-stratford-info {
     padding-left: 50px;
     color: snow;
-}
-
-#murder-image-bg {
-    height: 300px;
-    width: 34%;
-    float: left;
+    line-height: 0.75cm;
 }
 
 #murder-image {
+    width: 25%;
+    float: left;
     height: 275px;
     width: 275px;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
     background: url('../images/tower_of_bones.jpg') no-repeat center center;
     position: relative;
-    margin: 0 auto;
+    top: 20px;
+    left: 20px;
 }
 
 #murder-tour-info {
-    height: 300px;
-    width: 66%;
+    width: 75%;
     float: right;
 }
 
 #murder-stratford {
     padding-right: 50px;
-    font-size: 2rem;
+    font-size: 3rem;
     padding-top: 10px;
     padding-bottom: 20px;
     color: snow;
 }
 
 #murder-stratford-info {
-    padding-right: 50px;
+    padding-left: 50px;
     color: snow;
+    line-height: 0.75cm;
 }
 
 /* About us section */
 
-#us {
-    height: 300px;
-}
-
 #about-us {
-    height: 300px;
     width: 66%;
     float: left;
     border-bottom: #BE2D2D 10px solid;
@@ -199,7 +175,6 @@ nav > ul > li a:hover {
 }
 
 #us-bg {
-    height: 300px;
     width: 34%;
     float: right;
     border-bottom: #BE2D2D 10px solid;
@@ -215,7 +190,6 @@ nav > ul > li a:hover {
     margin: 0 auto;
 }
 
-
 #team-background {
     padding-top: 20px;
     padding-left: 50px;
@@ -224,14 +198,8 @@ nav > ul > li a:hover {
 
 /* Sign up form section */
 
-#sign-up {
-    height: 300px;
-    }
-
 #sign-up-bg {
-    height: 300px;
-    width: 34%;
-    
+    width: 34%;    
     float: left;
 }
 
@@ -245,9 +213,7 @@ nav > ul > li a:hover {
 }
 
 #sign-up-form {
-   height: 300px;
-   width: 66%;
-   
+   width: 66%;   
    float: right;
 }
 
@@ -300,7 +266,6 @@ form > p, label {
 /* Footer section */
 
 footer {
-    height: 150px;
     background-color: #BE2D2D;
     color: snow;
     text-align: center;

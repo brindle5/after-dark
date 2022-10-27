@@ -12,18 +12,19 @@
     <title>After Dark Tours</title>
 </head>
 <body>
-    <!-- Header formatting  -->
+    <!-- Main header formatting  -->
 
     <header>
-        <div id="left-header">
-             <div id="header-image"></div>
-        </div>
-        <div id="right-header">
-            <h1 id="right-header-title">After Dark Tours: Stratford-upon-Avon</h1>
+        <div id="left-header-image"></div>
 
-            <P id="slogan"><em>Discover the grotesque behind the picturesque!</em></P>
-        </div>                
+        <div id="right-header-title">
+                    <h1 id= "heading">After Dark Tours: Stratford-upon-Avon</h1>
+
+                    <P id="slogan"><em>Discover the grotesque behind the picturesque!</em></P>
+        </div>                       
     </header>
+
+    <div class="clear-format"></div> 
 
     <!-- Navigation bar  -->
 
@@ -47,7 +48,9 @@
     <!-- Tour section  -->
 
    <section id="tours">
+
     <div id="ghost-tour-info">
+
         <h2 id="our-tours">Our Tours</h2>
 
         <h3 id="ghosts-stratford"><em>Ghosts of Stratford</em></h3>
@@ -62,11 +65,13 @@
             <strong>Price:</strong> £12.00 adult; £7.00 child; OAP/student £10.00
             <br>
             <strong>Days and times:</strong> Nightly at 6pm, 8pm, 10pm & midnight. (closed bank holidays)          
-        </p>
+        </p>             
     </div>
-    <div id="ghost-image-bg">
-        <div id="ghost-image"></div>
-    </div>    
+
+    <div id="ghost-image"></div>
+
+    <div class="clear-format></div>
+      
     <div id="murder-tour-info">
         <h3 id="murder-stratford"><em>Murder and Mayhem</em></h3>
 
@@ -84,14 +89,15 @@
             **This tour is not suitable for children under 10 years old.
             </p>
     </div>
-    <div id="murder-image-bg">
-        <div id="murder-image"></div>
-    </div>    
+    <div id="murder-image"></div>  
+
    </section>
+
+   <div class="clear-format></div>
 
    <!-- About us section  -->
 
-   <section id="us">
+   <section>
         <div id="about-us">
             <h2 id="about-us-heading">About us</h2>
 
@@ -106,11 +112,14 @@
         <div id="us-bg">
             <div id="us-picture"></div>
         </div>
-   </section>
+
+        </section>
+
+        <div class="clear-format"></div>
 
    <!-- Sign up form  -->
 
-   <section id="sign-up">
+   <section>
         <div id="sign-up-bg">
             <div id="sign-up-image"></div>
 
@@ -124,12 +133,12 @@
             <form action="https://formdump.codeinstitute.net/" method="post">
 
                 <label for="name"><strong>Name:</strong></label>
-                <input id="name" type="text" class="sign-up-text" required>
+                <input id="name" type="text" class="sign-up-text" name="name" required>
 
                 <br>
 
                 <label for="email"><strong>Email: </strong></label>
-                <input id="email" type="email" class= "sign-up-text" required>
+                <input id="email" type="email" class= "sign-up-text" name="email" required>
 
                 <br>
 
@@ -149,6 +158,9 @@
                 <input type="submit" value="I want to be afraid" id="submit">
             </form>
         </div>   
+
+        <div class="clear-format"></div>
+
    </section>
 
    <!-- Footer formatting  -->
@@ -158,7 +170,7 @@
              <li class="contact-info"><i class="fa-solid fa-envelope"></i> 7 Chiller Close, Stratford-upon-Avon, CV37 6PP</li>
             <li class="contact-info"><i class="fa-solid fa-phone"></i> 01789 435 602</li>
         </ul>
-        <!--Code for social media links originally from Code Institute-->
+        <!-- Code for social media links originally from Code Institute -->
         <ul>
              <li class="social-media">
              <a href= "https://facebook.com" target= "_blank" rel= "noopener" aria-label="Find us on facebook (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a> 
