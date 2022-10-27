@@ -36,7 +36,6 @@ html {
     font-weight: 700;
     letter-spacing: 3px;
     font-size: 6.5rem;
-    color: snow;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -45,17 +44,17 @@ body {
     font-family: Libre-Baskerville, Verdana, sans-serif;
     font-weight: 400;
     background-color: #3a3a3a;
+    color: snow;
 }
 
 #slogan {
     font-weight: 700;
     font-size: 2rem;
-    color: snow;
     padding-bottom: 20px;
 }
 
 .clear-format {
-    clear: both
+    clear: both;
 }
 
 nav {
@@ -91,7 +90,6 @@ nav > ul > li a:hover {
     padding-left: 350px;
     padding-top: 5px;
     padding-bottom: 10px; 
-    color: snow;
 }
 
 #ghost-tour-info {
@@ -116,12 +114,10 @@ nav > ul > li a:hover {
     padding-left: 50px;
     font-size: 3rem;
     padding-bottom: 10px;
-    color: snow;
 }
 
 #ghosts-stratford-info {
     padding-left: 50px;
-    color: snow;
     line-height: 0.75cm;
 }
 
@@ -134,8 +130,8 @@ nav > ul > li a:hover {
     border: #BE2D2D solid 7px;
     background: url('../images/tower_of_bones.jpg') no-repeat center center;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 40px;
+    left: 60px;
 }
 
 #murder-tour-info {
@@ -147,74 +143,74 @@ nav > ul > li a:hover {
     padding-right: 50px;
     font-size: 3rem;
     padding-top: 10px;
+    padding-left: 50px;
     padding-bottom: 20px;
-    color: snow;
+    clear: both;
 }
 
 #murder-stratford-info {
     padding-left: 50px;
-    color: snow;
     line-height: 0.75cm;
+    padding-right: 50px;
 }
 
 /* About us section */
 
 #about-us {
-    width: 66%;
+    width: 75%;
     float: left;
-    border-bottom: #BE2D2D 10px solid;
 }
 
 #about-us-heading {
     font-weight: 700;
     font-size: 3rem;
     padding-left: 300px;
-    padding-top: 5px;
+    padding-top: 20px;
     padding-bottom: 10px; 
-    color: snow;
+    clear: both;
 }
 
-#us-bg {
-    width: 34%;
+#us-image {
+    width: 25%;
     float: right;
-    border-bottom: #BE2D2D 10px solid;
-}
-
-#us-picture {
     height: 275px;
     width: 275px;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
     background: url('../images/scary_faces.jpg') no-repeat center center;
     position: relative;
-    margin: 0 auto;
-}
+    top: 40px;
+    right: 60px;
+}   
 
 #team-background {
     padding-top: 20px;
     padding-left: 50px;
-    color: snow;
+    padding-bottom: 50px;
+    line-height: 0.75cm;    
 }
 
 /* Sign up form section */
 
-#sign-up-bg {
-    width: 34%;    
-    float: left;
-}
-
 #sign-up-image {
-    height: 275px;
-    width: 275px;
+    width: 34%;    
+    float: left; 
+    height: 265px;
+    width: 265px;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
+    margin-bottom: 20px;
     background: url('../images/skull_on_books.jpg') no-repeat center center;
-    margin: 0 auto;
+    position: relative;
+    top: 10px;
+    left: 60px; 
+    padding-bottom: 15px;      
 }
 
 #sign-up-form {
    width: 66%;   
    float: right;
+   padding-bottom: 15px;
 }
 
 #sign-up-heading {
@@ -222,12 +218,10 @@ nav > ul > li a:hover {
     font-size: 2rem;
     padding-top: 10px;
     padding-bottom: 20px;
-    color: snow;
 }
 
 #sign-up-para {
     padding-right: 50px;
-    color: snow;
 }
 
 .sign-up-text {
@@ -238,7 +232,7 @@ nav > ul > li a:hover {
 }
 
 #submit {
-    padding: 5px;
+    padding: 10px;
     margin: 10px 0;
     font-weight: 700;
     background-color: snow;
@@ -267,7 +261,6 @@ form > p, label {
 
 footer {
     background-color: #BE2D2D;
-    color: snow;
     text-align: center;
 }
 
@@ -276,15 +269,15 @@ footer {
     font-weight: 700;
     letter-spacing: 2px;
     padding-top: 20px;
+    padding-bottom: 20px;
     list-style-type: none;     
 }
 
 .social-media {
     font-size: 175%;
-    color: snow;
     list-style-type: none;
     display: inline;
-    padding: 20px 100px;
+    padding: 20px 100px;  
 }
 
 .social-media a:visited {
@@ -293,89 +286,6 @@ footer {
 
 /* Media queries */
 
-/* For screens smaller than 1250px */
 
-@media screen and (max-width: 1225px) {
 
-    #header-image {
-        height: 300px;
-        width: 300px;       
-    } 
-
-    #right-header {
-        width: 65%;
-    }
-
-    #left-header {
-        width: 35%;
-    }
-
-    #right-header-title {
-        font-size: 5.5rem;
-        padding-bottom: 10px;
-        padding-left: 25px;
-    }
-
-    #our-tours, #about-us-heading {
-        font-size: 2rem;
-    }    
-}
-
-/* For screens smaller than 1100px */
-
-@media screen and (max-width: 1100px) {
-
-    #header-image {
-        height: 250px;
-        width: 250px;
-        margin: 0 auto;
-    }
-
-    #right-header-title {
-        font-size: 4.5rem;
-    }
-
-    #ghosts-stratford-info, #murder-tour-info, #about-us {
-    font-size: small;
-    }
-
-    #slogan {
-        font-size: 2rem;
-    }
-
-    nav > ul > li {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-
-    #ghosts-stratford, #ghosts-stratford-info {
-        padding-left: 15px;
-    }
-
-    #murder-stratford, #murder-stratford-info {
-        padding-left: 30px;
-    }
-
-    #team-background {
-        padding-left: 15px;
-    }
-   
-    #sign-up-bg {
-        width: 40%;
-    }
-
-    #sign-up-form {
-        width: 60%;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    #header-image {
-        height: 175px;
-        width: 175px;
-    }
-
-    #right-header-title {
-        font-size: 4rem;
-    }
-}
+ 
