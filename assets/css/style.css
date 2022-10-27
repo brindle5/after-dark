@@ -8,8 +8,12 @@
     border: none;
 }
 
+
+
+/*Ignore header height*/
+
 header {
-    height: 600px;      
+    height: 600px;
 }
 
 #left-header {
@@ -45,6 +49,7 @@ header {
 body {
     font-family: Libre-Baskerville, Verdana, sans-serif;
     font-weight: 400;
+    background-color: #3a3a3a;
 }
 
 #right-header-title {
@@ -62,7 +67,6 @@ body {
 
 nav {
     height: 75px;
-    background-color: #3a3a3a;
     border-bottom: #BE2D2D 10px solid;
     list-style-type: none;
     text-align: center;
@@ -79,8 +83,9 @@ nav > ul > li {
     padding-top: 10px;
 }
 
-nav > ul > li a:visited {
+nav > ul > li a:visited, nav > ul > li a {
     color: snow;
+    text-decoration: none;
 }
 
 nav > ul > li a:hover {
@@ -103,7 +108,6 @@ nav > ul > li a:hover {
 #ghost-image-bg {
     height: 300px;
     width: 34%;
-    background-color: #3a3a3a;
     float: right;
 }
 
@@ -158,7 +162,6 @@ nav > ul > li a:hover {
 #murder-tour-info {
     height: 300px;
     width: 66%;
-    background-color: #3a3a3a;
     float: right;
 }
 
@@ -184,7 +187,6 @@ nav > ul > li a:hover {
 #about-us {
     height: 300px;
     width: 66%;
-    background-color: #3a3a3a;
     float: left;
     border-bottom: #BE2D2D 10px solid;
 }
@@ -201,7 +203,6 @@ nav > ul > li a:hover {
 #us-bg {
     height: 300px;
     width: 34%;
-    background-color: #3a3a3a;
     float: right;
     border-bottom: #BE2D2D 10px solid;
 }
@@ -227,13 +228,12 @@ nav > ul > li a:hover {
 
 #sign-up {
     height: 300px;
-    background-color: #3a3a3a;
-}
+    }
 
 #sign-up-bg {
     height: 300px;
     width: 34%;
-    background-color: #3a3a3a;
+    
     float: left;
 }
 
@@ -249,7 +249,7 @@ nav > ul > li a:hover {
 #sign-up-form {
    height: 300px;
    width: 66%;
-   background-color: #3a3a3a;
+   
    float: right;
 }
 
