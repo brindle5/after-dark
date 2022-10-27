@@ -8,7 +8,9 @@
     border: none;
 }
 
-
+html {
+    scroll-behavior: smooth;
+}
 
 /*Ignore header height*/
 
@@ -20,7 +22,6 @@ header {
     padding-top: 20px;
     height: 600px;
     width: 40%;
-    background-color: #3a3a3a;
     float: left;
     border-bottom: #BE2D2D 10px solid;
 }
@@ -29,7 +30,6 @@ header {
     padding-top: 20px;    
     height: 600px;
     width: 60%;
-    background-color: #3a3a3a;
     float: right;
     border-bottom: #BE2D2D 10px solid;
 }
@@ -92,7 +92,7 @@ nav > ul > li a:hover {
     text-decoration: underline;
 }
 
-/*Our tours section*/
+/* Our tours section */
 
 #tours {
     height: 600px;
@@ -101,7 +101,6 @@ nav > ul > li a:hover {
 #ghost-tour-info {
     height: 300px;
     width: 66%;
-    background-color: #3a3a3a;
     float: left;
 }
 
@@ -145,7 +144,6 @@ nav > ul > li a:hover {
 #murder-image-bg {
     height: 300px;
     width: 34%;
-    background-color: #3a3a3a;
     float: left;
 }
 
@@ -178,7 +176,7 @@ nav > ul > li a:hover {
     color: snow;
 }
 
-/*About us section*/
+/* About us section */
 
 #us {
     height: 300px;
@@ -224,7 +222,7 @@ nav > ul > li a:hover {
     color: snow;
 }
 
-/*Sign up form section*/
+/* Sign up form section */
 
 #sign-up {
     height: 300px;
@@ -299,7 +297,7 @@ form > p, label {
     color: snow;
 }
 
-/*Footer section*/
+/* Footer section */
 
 footer {
     height: 150px;
@@ -328,9 +326,9 @@ footer {
     color: snow;
 }
 
-/*Media queries*/
+/* Media queries */
 
-/*For screens smaller than 1250px*/
+/* For screens smaller than 1250px */
 
 @media screen and (max-width: 1225px) {
 
@@ -358,7 +356,7 @@ footer {
     }    
 }
 
-/*For screens smaller than 1100px*/
+/* For screens smaller than 1100px */
 
 @media screen and (max-width: 1100px) {
 
