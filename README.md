@@ -14,7 +14,7 @@ The header will be the viewer’s first introduction to ‘After Dark Tours’ a
 
 #### Navigation Bar
 
-![Navigation bar](documentation/navigation_bar.png)
+![Navigation bar]
 
 The fully responsive nav bar links to the relevant sections on the website in a way that is intuitive.
 
@@ -38,7 +38,7 @@ The viewer can sign up for a tour using the sign -up form at the bottom of the s
 
 #### Footer
 
-![After Dark site footer](documentation/footer.png)
+![After Dark site footer]
 
 The footer features a myriad of ways for the viewer to contact ‘After Dark Tours’ whether by postal address, landline telephone number or social media. 
 
@@ -64,11 +64,24 @@ In the future, Ian and Debbie hope to develop the site so customers can book or 
 
 ## **Deployment**
 
-The site was deployed to GitHub. 
-* To deploy the project in the GitHub repository, go to the Settings tab and select Pages. 
-* Select Master Branch from the dropdown source menu. GitHub will provide the link.
+The site was deployed to GitHub pages. The steps to deploy are as follows: 
+* In the [GitHub repository](https://github.com/brindle5/after-dark), navigate to the Settings tab 
+* From the source section drop-down menu, select the **Main** Branch, then click "Save".
+* The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The link to the project can be found here: https://brindle5.github.io/after-dark/#tours
+The live link can be found [here](https://brindle5.github.io/after-dark)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/brindle5/after-dark.git`
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/brindle5/after-dark)
+
+
 
 ## **Credits**
 
