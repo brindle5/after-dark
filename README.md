@@ -14,9 +14,9 @@ The header will be the viewer’s first introduction to ‘After Dark Tours’ a
 
 #### Navigation Bar
 
-![Navigation bar] (documentation/navigation_bar.png)
+![Navigation bar](documentation/navigation_bar.png)
 
-The fully responsive nav bar links to the relevant sections on the website in a way that is intuitive.
+The fully responsive nav bar links to the relevant section on the website in a way that is intuitive.
 
 #### 'Our Tours' 
 
@@ -87,10 +87,22 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ###  Content:
 
-* The code for the initial CSS formatting and the social media links are from the Code Institute Love Running project.
-* The icons for the social media links are from Font Awesome.
+* The code for the initial CSS formatting and the social media links are from the [Code Institute](https://codeinstitute.net/global/) Love Running project.
+* The icons for the social media links are from [Font Awesome](https://fontawesome.com/).
 
 ### Media:
 
-* The photos are from Pexels and Unsplash.
+The photos are from [pexels.com](https://www.pexels.com/) and [unsplash.com](https://unsplash.com/).
+
+* creepy_church.jpg https://www.pexels.com/photo/photo-of-church-during-daytime-3321255/
+* ghosts.jpg https://unsplash.com/photos/MTI-La8-eTA
+* tower_of_bones.jpg https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/
+* scary_faces.jpg https://www.pexels.com/photo/lighted-jack-o-lantern-decors-619420/
+* skull_on_books.jpg https://www.pexels.com/photo/white-skull-on-white-wooden-table-5095880/
+
+
+
+
+
+
 
