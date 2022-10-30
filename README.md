@@ -14,7 +14,7 @@ The header will be the viewer’s first introduction to ‘After Dark Tours’ a
 
 #### Navigation Bar
 
-![Navigation bar]
+![Navigation bar] (documentation/navigation_bar.png)
 
 The fully responsive nav bar links to the relevant sections on the website in a way that is intuitive.
 
