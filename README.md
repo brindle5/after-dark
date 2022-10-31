@@ -87,7 +87,7 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ###  Content:
 
-* The code for the initial CSS formatting and the social media links are from the [Code Institute](https://codeinstitute.net/global/) Love Running project.
+* The code for the initial CSS formatting and the social media links are from the [Code Institute](https://codeinstitute.net/global/) content Love Running project.
 * The icons for the social media links are from [Font Awesome](https://fontawesome.com/).
 
 ### Media:
