@@ -329,8 +329,72 @@ footer > ul {
 
 /* For screens between 481 pixels and 768 pixels  */
 
-@media only screen and (max-width: 768px) and (min-width: 481 px) {
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    #left-header-image {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 25px;
+        left: 20px;
+    }
+
+    #heading {
+        font-size: 3rem;
+    }
+
+    #slogan {
+        font-size: 1.5rem;
+    }
     
+    #our-tours {
+        font-size: 2.5rem;
+        padding-left: 200px;
+    }
+
+    #ghosts-stratford {
+        font-size: 2rem;
+    }
+
+    #ghost-image {
+        height: 225px;
+        width: 225px;
+        position: relative;
+        top: -5px;
+    }
+
+    #murder-stratford {
+        font-size: 2rem;
+    }
+
+    #murder-image {
+        height: 225px;
+        width: 225px;
+        position: relative;
+        top: 15px;
+    }
+
+    #about-us-heading {
+        font-size: 2rem;
+    }
+
+    #us-image {
+        height: 225px;
+        width: 225px;
+        position: relative;
+        top: -50px;
+    }
+
+    #sign-up-image {
+        height: 240px;
+        width: 240px;
+        margin-bottom: 10px;
+        position: relative;
+        top: -20px;
+    }
+
+    .contact-info {
+        font-size: 1rem;
+    }
 }
 
 
