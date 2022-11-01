@@ -38,7 +38,7 @@ The viewer can sign up for a tour using the sign -up form at the bottom of the s
 
 #### Footer
 
-![After Dark site footer]
+![After Dark site footer](documentation/footer.png)
 
 The footer features a myriad of ways for the viewer to contact ‘After Dark Tours’ whether by postal address, landline telephone number or social media. 
 

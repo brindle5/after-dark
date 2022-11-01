@@ -290,6 +290,49 @@ footer > ul {
 
 /* Media queries */
 
+/* For screens between 769 pixels and 1024 pixels  */
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    #left-header-image {
+        height: 275px;
+        width: 275px;
+}
+    #heading {
+        font-size: 4rem;
+    }
+
+    #our-tours {
+        font-size: 3.5rem;
+        padding-left: 200px;
+    }
+
+    #ghost-image {
+        position: relative;
+        top: -5px;
+    }
+
+    #us-image {
+        position: relative;
+        top: -30px;
+    }
+
+    #murder-image {
+        position: relative;
+        top: 30px;
+    }
+
+    #sign-up-image {
+        position: relative;
+        left: 10px;
+    }
+}
+
+/* For screens between 481 pixels and 768 pixels  */
+
+@media only screen and (max-width: 768px) and (min-width: 481 px) {
+    
+}
+
 
 
  
