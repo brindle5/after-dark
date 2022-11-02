@@ -294,8 +294,8 @@ footer > ul {
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
     #left-header-image {
-        height: 275px;
-        width: 275px;
+        height: 230px;
+        width: 230px;
 }
     #heading {
         font-size: 4rem;
