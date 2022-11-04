@@ -2,6 +2,8 @@
 
 After Dark Tours: Stratford-upon-Avon is a website aimed at visitors and tourists who are interesting in the dark, creepy and disturbing history of the area. Much of the marketing aimed at visitors to Stratford centres around Shakespeare’s birthplace, the theatre, or its many pretty streets and quaint buildings. However, there is a market for people who want an alternative experience and that is what After Dark Tours aims to provide. The site’s objective is to entice visitors to the website to sign up for one of the tours based around the less palatable side of a famous tourist town, including hauntings, murders and other grisly occurences. 
 
+!(Responsive design screenshot)[documentation/responsive_screenshot.png]
+
 ## **Features**
 
 ### Existing Features
@@ -48,16 +50,58 @@ In the future, Ian and Debbie hope to develop the site so customers can book or 
 
 ## **Testing**
 
-* After Dark Tours has a number of responsive design features which means it can be viewed on a variety of screen sizes from desktop through to tablet computers.
-* The site is not optimised to be viewed using a mobile device.
-* The site has been tested on different browsers: Chrome, Edge, Firefox, and Safari.
-* The different sections are easy to read and understandable.
-* The form can only be submitted by using the required data: name and email address, plus the selection of one of the three radio buttons and I have confirmed that the submit button works.
+* After Dark Tours has a number of responsive design features which means it can be viewed on a variety of screen sizes.
+
+Mobile phones (screens from 320px to 480px)
+
+![Mobile screenshot](documentation/mobile_screenshot.jpg)
+
+Tablet computers (screens from 481px to 768px)
+
+![]()
+
+Laptops (screens from 769px to 1024px)
+
+
+![Laptop screenshot](documentation/laptop_screenshot.png)
+
+Desktop (screens from 1025px to 1200px)
+
+![Desktop screenshot](documentation/desktop_screenshot.png)
+
+* The site has been tested on different browsers: 
+
+Chrome: 
+
+![Chrome screenshot](documentation/chrome_screenshot.png)
+
+Edge:
+
+![Edge screenshot](documentation/edge_screenshot.png)
+
+Firefox: 
+
+![Firefox screenshot](documentation/firefox_screenshot.png)
+
+
+* The form can only be submitted by using the required data: name and email address, plus the selection of one of the three radio buttons and the submit button works.
+
+![Form screenshot](documentation/form_screenshot.png)
 
 ### Validator Testing
 
-* HTML: no errors were returned when passing through the W3C validator.
+* HTML: no errors were returned when passing through the W3C validator: 
+
+[HTML validator link](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrindle5.github.io%2Fafter-dark%2F)
+
+![HTML validation screenshot](documentation/html_validation.png)
+
 * CSS: no errors were returned when passing through the Jigsaw validator.
+
+[CSS validator link](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrindle5.github.io%2Fafter-dark)
+
+![CSS validation screenshot](documentation/css_validation.png)
+
 * Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools. 
 
 ![Lighthouse accesibility report](documentation/lighthouse_report.png)
