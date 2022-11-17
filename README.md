@@ -4,6 +4,34 @@ After Dark Tours: Stratford-upon-Avon is a website aimed at visitors and tourist
 
 ![Responsive design screenshot](documentation/responsive_screenshot.png)
 
+## **UX**
+
+#### **Colour scheme**
+
+The colours snow, #BE2D2D (dull red) and #3a3a3a (dark grey) were chosen as they complemented the dark theme of the website but also worked well with regards to readability and accessibility.
+
+#### **Typography- fonts and imagery**
+
+Libre Baskerville was selected as the font for the headings and body of the website due to its Gothic style. 
+
+The images were free from stock photo sites but in the future, Ian and Debbie (the owners of After Dark Tours) would like to commission custom imagery for the site. The background photos selected were felt to complement the different sections of the site, but not distract visitors. 
+
+### **Wireframes**
+
+![Wireframe of header section](documentation/wireframe_header.png)
+
+![Wireframe of body section](documentation/wireframe_body.png)
+
+![Wireframe of footer section](documentation/wireframe_footer.png)
+
+#### **Changes to my initial design**
+
+I added an “About Us” section so visitors could learn more about the couple who run the tours. This personal element will appeal to After Dark Tours potential customers who hope to have an experience slightly different from many larger operators.
+
+#### **Responsive design**
+
+It was important to keep the continuity of style across different screen sizes, so the images and headings were made slightly smaller. No large changes were made to the layout.
+
 ## **Features**
 
 ### Existing features
