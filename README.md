@@ -8,11 +8,13 @@ After Dark Tours: Stratford-upon-Avon is a website aimed at visitors and tourist
 
 #### **Colour scheme**
 
-The colours snow, #BE2D2D (dull red) and #3a3a3a (dark grey) were chosen as they complemented the dark theme of the website but also worked well with regards to readability and accessibility.
+The colours #FFFAFA (Snow), #BE2D2D (International Orange Golden Gate Bridge) and #3A3A3A (Jet) were chosen as they complemented the dark theme of the website but also worked well with regards to readability and accessibility.
+
+![Colour palette](documentation/colour_palette.png)
 
 #### **Typography- fonts and imagery**
 
-Libre Baskerville was selected as the font for the headings and body of the website due to its Gothic style. 
+Libre Baskerville 400 & 700 were selected as the font for the headings and body of the website due to its Gothic style. It is from [Google Fonts](https://fonts.google.com/specimen/Libre+Baskerville).
 
 The images were free from stock photo sites but in the future, Ian and Debbie (the owners of After Dark Tours) would like to commission custom imagery for the site. The background photos selected were felt to complement the different sections of the site, but not distract visitors. 
 
@@ -169,11 +171,13 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 The photos are from [pexels.com](https://www.pexels.com/) and [unsplash.com](https://unsplash.com/).
 
-* creepy_church.jpg https://www.pexels.com/photo/photo-of-church-during-daytime-3321255/
-* ghosts.jpg https://unsplash.com/photos/MTI-La8-eTA
-* tower_of_bones.jpg https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/
-* scary_faces.jpg https://www.pexels.com/photo/lighted-jack-o-lantern-decors-619420/
-* skull_on_books.jpg https://www.pexels.com/photo/white-skull-on-white-wooden-table-5095880/
+* [creepy_church.jpg](https://www.pexels.com/photo/photo-of-church-during-daytime-3321255/)
+* [ghosts.jpg](https://unsplash.com/photos/MTI-La8-eTA)
+* [tower_of_bones.jpg](https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/)
+* [scary_faces.jpg](https://www.pexels.com/photo/lighted-jack-o-lantern-decors-619420/)
+* [skull_on_books.jpg](https://www.pexels.com/photo/white-skull-on-white-wooden-table-5095880/)
+
+
 
 
 

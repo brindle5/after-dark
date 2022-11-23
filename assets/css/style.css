@@ -12,24 +12,23 @@ html {
     scroll-behavior: smooth;
 }
 
-#left-header-image {
-    padding-top: 20px;
-    width: 40%;
-    float: left;    
-    height: 375px;
-    width: 375px;
+.display-settings{
+    display:flex;
+    flex-direction: row;
+}
+
+#left-header-image {  
+    height: 23.4375rem; 
+    width: 23.4375rem;
     padding: 50px;
     border-radius: 50%;
     border: #BE2D2D solid 10px;    
-    position: relative;
-    top: 40px;
-    left: 40px;
     background: url('../images/creepy_church.jpg') no-repeat center center;
+    margin: 2em;
 }
 
-#right-header-title {
-    width: 60%;
-    float: right;
+#left-header-image, .width-setting {
+    width: 55%;
 }
 
 #heading {
@@ -37,7 +36,7 @@ html {
     letter-spacing: 3px;
     font-size: 6.5rem;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
 }
 
 body {
@@ -51,10 +50,7 @@ body {
     font-weight: 700;
     font-size: 2rem;
     padding-bottom: 20px;
-}
-
-.clear-format {
-    clear: both;
+    text-align: center;
 }
 
 nav {
@@ -92,22 +88,13 @@ nav > ul > li a:hover {
     padding-bottom: 10px; 
 }
 
-#ghost-tour-info {
-    width: 75%;
-    float: left;
-}
-
 #ghost-image {
-    width: 25%;
-    float: right;
-    height: 275px;
-    width: 275px;
+    height: 17.1875rem;
+    width: 17.1875rem;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
     background: url('../images/ghosts.jpg') no-repeat center center;
-    position: relative;
-    top: 40px;
-    right: 60px;
+    margin: 2em;
 }
 
 #ghosts-stratford {
@@ -121,22 +108,17 @@ nav > ul > li a:hover {
     line-height: 0.75cm;
 }
 
+.width-setting {
+    width: 30%;
+}
+
 #murder-image {
-    width: 25%;
-    float: left;
-    height: 275px;
-    width: 275px;
+    height: 17.1875rem;
+    width: 17.1875rem;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
     background: url('../images/tower_of_bones.jpg') no-repeat center center;
-    position: relative;
-    top: 40px;
-    left: 60px;
-}
-
-#murder-tour-info {
-    width: 75%;
-    float: right;
+    margin: 2em;
 }
 
 #murder-stratford {
@@ -145,7 +127,6 @@ nav > ul > li a:hover {
     padding-top: 10px;
     padding-left: 50px;
     padding-bottom: 20px;
-    clear: both;
 }
 
 #murder-stratford-info {
@@ -154,12 +135,8 @@ nav > ul > li a:hover {
     padding-right: 50px;
 }
 
-/* About us section */
 
-#about-us {
-    width: 75%;
-    float: left;
-}
+/* About us section */
 
 #about-us-heading {
     font-weight: 700;
@@ -167,20 +144,16 @@ nav > ul > li a:hover {
     padding-left: 300px;
     padding-top: 20px;
     padding-bottom: 10px; 
-    clear: both;
+    
 }
 
 #us-image {
-    width: 25%;
-    float: right;
-    height: 275px;
-    width: 275px;
+    height: 17.1875rem;
+    width: 17.1875rem;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
     background: url('../images/scary_faces.jpg') no-repeat center center;
-    position: relative;
-    top: 40px;
-    right: 60px;
+    margin: 2em;
 }   
 
 #team-background {
@@ -192,25 +165,20 @@ nav > ul > li a:hover {
 
 /* Sign up form section */
 
-#sign-up-image {
-    width: 34%;    
-    float: left; 
-    height: 265px;
-    width: 265px;
+#sign-up-image {       
+    height: 16.5625rem;
+    width: 16.5625rem;
     border-radius: 50%;
     border: #BE2D2D solid 7px;
     margin-bottom: 20px;
-    background: url('../images/skull_on_books.jpg') no-repeat center center;
-    position: relative;
-    top: 10px;
-    left: 60px; 
-    padding-bottom: 15px;      
+    background: url('../images/skull_on_books.jpg') no-repeat center center; 
+    padding-bottom: 15px;  
+    margin: 2em;    
 }
 
-#sign-up-form {
-   width: 66%;   
-   float: right;
+#sign-up-form {     
    padding-bottom: 15px;
+   padding-left: 8%;
 }
 
 #sign-up-heading {
@@ -295,7 +263,11 @@ footer > ul {
 @media only screen and (max-width: 1024px) and (min-width: 769px) {
     #left-header-image {
         height: 250px;
-        width: 250px;
+        width: 250px;        
+    }
+
+    #right-header-title {
+        width: 60%;
     }
     
     #heading {
@@ -306,26 +278,6 @@ footer > ul {
         font-size: 3.5rem;
         padding-left: 200px;
     }
-
-    #ghost-image {
-        position: relative;
-        top: -5px;
-    }
-
-    #us-image {
-        position: relative;
-        top: -30px;
-    }
-
-    #murder-image {
-        position: relative;
-        top: 30px;
-    }
-
-    #sign-up-image {
-        position: relative;
-        left: 10px;
-    }
 }
 
 /* For screens between 481 pixels and 768 pixels  */
@@ -334,9 +286,6 @@ footer > ul {
     #left-header-image {
         height: 250px;
         width: 250px;
-        position: relative;
-        top: 25px;
-        left: 20px;
     }
 
     #heading {
@@ -359,8 +308,6 @@ footer > ul {
     #ghost-image {
         height: 225px;
         width: 225px;
-        position: relative;
-        top: -5px;
     }
 
     #murder-stratford {
@@ -369,9 +316,7 @@ footer > ul {
 
     #murder-image {
         height: 225px;
-        width: 225px;
-        position: relative;
-        top: 15px;
+        width: 225px;        
     }
 
     #about-us-heading {
@@ -381,16 +326,12 @@ footer > ul {
     #us-image {
         height: 225px;
         width: 225px;
-        position: relative;
-        top: -40px;
     }
 
     #sign-up-image {
         height: 240px;
         width: 240px;
         margin-bottom: 10px;
-        position: relative;
-        top: -20px;
     }
 
     .contact-info {
@@ -404,9 +345,6 @@ footer > ul {
     #left-header-image {
         height: 175px;
         width: 175px;
-        position: relative;
-        top: 5px;
-        left: 20px;
     }
 
     #heading {
@@ -428,10 +366,7 @@ footer > ul {
 
     #ghost-image {
         height: 275px;
-        width: 275px;
-        position: relative;
-        top: 5px;
-        right: 15px;
+        width: 275px;        
     }
 
     #murder-stratford {
@@ -440,9 +375,7 @@ footer > ul {
 
     #murder-image {
         height: 275px;
-        width: 275px;
-        position: relative;
-        top: 15px;
+        width: 275px;        
     }
 
     #about-us-heading {
@@ -452,19 +385,13 @@ footer > ul {
 
     #us-image {
         height: 275px;
-        width: 275px;
-        position: relative;
-        top: -40px;
-        right: 10px;
+        width: 275px;        
     }
 
     #sign-up-image {
         height: 240px;
         width: 240px;
         margin-bottom: 10px;
-        position: relative;
-        top: -10px;
-        left: 30px;
     }
 
     .contact-info {
@@ -475,8 +402,12 @@ footer > ul {
     .social-media {
         padding: 20px;
     }
-}
+} 
 
 
 
- 
+
+
+
+
+
