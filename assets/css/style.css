@@ -27,16 +27,17 @@ html {
     margin: 2em;
 }
 
-#left-header-image, .width-setting {
-    width: 55%;
-}
+#left-header-image, .width-setting { 
+    width: 55%; 
+} 
 
 #heading {
     font-weight: 700;
     letter-spacing: 0.2rem;
-    font-size: 6.5rem;
+    font-size: 7vw;
     padding-top: 1rem;
     padding-bottom: 1rem;   
+    padding-left: 1rem;
 }
 
 body {
@@ -65,7 +66,7 @@ nav {
 nav > ul > li {       
     color: snow;  
     display: inline-block;  
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: 0.6rem 3.75rem;
 }
 
@@ -108,10 +109,6 @@ nav > ul > li a:hover {
     line-height: 0.75cm;
 }
 
-.width-setting {
-    width: 30%;
-}
-
 #murder-image {
     height: 17.1875rem;
     width: 17.1875rem;
@@ -151,7 +148,7 @@ nav > ul > li a:hover {
     border-radius: 50%;
     border: #BE2D2D solid 0.4375rem;
     background: url('../images/scary_faces.jpg') no-repeat center center;
-    margin: 2em;
+    padding-right: 1rem;
 }   
 
 #team-background {
@@ -176,7 +173,7 @@ nav > ul > li a:hover {
 
 #sign-up-form {     
    padding-bottom: 0.9rem;
-   padding-left: 3rem;
+   padding-left: 1rem;
 }
 
 #sign-up-heading {
@@ -260,7 +257,7 @@ footer > ul {
 
 @media only screen and (max-width: 1024px) and (min-width: 769px) {   
     
-     #left-header-image { 
+    #left-header-image { 
         height: 15rem;
         width: 15rem 
     }
@@ -295,7 +292,7 @@ footer > ul {
     #ghost-image {
         height: 14rem;
         width: 14rem;
-        /* margin: 2em; */
+        margin: 2em; 
     }
 
     #murder-image {
