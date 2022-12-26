@@ -12,10 +12,10 @@ html {
     scroll-behavior: smooth;
 }
 
-.display-settings{
+/* .display-settings{
     display:flex;
     flex-direction: row;
-}
+} */
 
 #heading {
     font-weight: 700;
