@@ -12,25 +12,23 @@ html {
     scroll-behavior: smooth;
 }
 
-/* .display-settings{
-    display:flex;
-    flex-direction: row;
+
+body {
+    font-family: Libre-Baskerville, Verdana, sans-serif;
+    font-weight: 400;
+    background-color: #3a3a3a;
+    color: snow;   
+}
+
+/* .display {
+    margin: 0 auto;
 } */
 
 #heading {
     font-weight: 700;
     letter-spacing: 0.2rem;
     font-size: 4vw;
-    padding-top: 1rem;
-    padding-bottom: 1rem;   
-    padding-left: 1rem;
-}
-
-body {
-    font-family: Libre-Baskerville, Verdana, sans-serif;
-    font-weight: 400;
-    background-color: #3a3a3a;
-    color: snow;
+    padding: 1rem;
 }
 
 #slogan {
@@ -69,7 +67,7 @@ nav > ul > li a:hover {
 
 #our-tours {
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3.5rem;
     padding-left: 22rem;
     padding-top: 0.3rem;
     padding-bottom: 0.6rem;
@@ -134,8 +132,8 @@ nav > ul > li a:hover {
     border-radius: 50%;
     border: #BE2D2D solid 0.4375rem;
     background: url('../images/scary_faces.jpg') no-repeat center center;
-    padding-right: 1rem;
-}   
+    padding-left: 3rem;
+}
 
 #team-background {
     padding-top: 1rem;
@@ -159,7 +157,7 @@ nav > ul > li a:hover {
 
 #sign-up-form {     
    padding-bottom: 0.9rem;
-   padding-left: 1rem;
+   padding-left: 3rem;
 }
 
 #sign-up-heading {
