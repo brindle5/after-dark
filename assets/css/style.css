@@ -20,9 +20,10 @@ body {
     color: snow;   
 }
 
-/* .display {
-    margin: 0 auto;
-} */
+.display {
+    display: flex;
+    flex-direction: row;
+}
 
 #heading {
     font-weight: 700;
@@ -145,15 +146,9 @@ nav > ul > li a:hover {
 /* Sign up form section */
 
 #sign-up-image {  
-    height: 20rem;     
-    /* height: 16.5625rem;   */
-    /* width: 16.5625rem; */
-    /* border-radius: 50%; */
-    border: #BE2D2D solid 0.4375rem;
-    /* margin-bottom: 1rem; */
-    /* background: url('../images/skull_on_books.jpg') no-repeat center center;  */
-    /* padding-bottom: 0.9rem;  */
-    /* margin: 2em; */
+    height: 20rem;        
+    border: #BE2D2D solid 0.5rem;
+    margin: 2rem;    
 } 
 
 #sign-up-form {     
@@ -164,7 +159,7 @@ nav > ul > li a:hover {
 #sign-up-heading {
     padding-right: 3rem;
     font-size: 2rem;
-    padding-top: 0.6rem;
+    padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
@@ -181,7 +176,7 @@ nav > ul > li a:hover {
 
 #submit {
     padding: 0.6rem;
-    margin: 0.6rem 0;
+    margin: 1rem 0;
     font-weight: 700;
     background-color: snow;
     letter-spacing: 0.06rem;
