@@ -144,16 +144,17 @@ nav > ul > li a:hover {
 
 /* Sign up form section */
 
-#sign-up-image {       
-    height: 16.5625rem;
-    width: 16.5625rem;
-    border-radius: 50%;
+#sign-up-image {  
+    height: 20rem;     
+    /* height: 16.5625rem;   */
+    /* width: 16.5625rem; */
+    /* border-radius: 50%; */
     border: #BE2D2D solid 0.4375rem;
-    margin-bottom: 1rem;
-    background: url('../images/skull_on_books.jpg') no-repeat center center; 
-    padding-bottom: 0.9rem; 
-    margin: 2em;    
-}
+    /* margin-bottom: 1rem; */
+    /* background: url('../images/skull_on_books.jpg') no-repeat center center;  */
+    /* padding-bottom: 0.9rem;  */
+    /* margin: 2em; */
+} 
 
 #sign-up-form {     
    padding-bottom: 0.9rem;
