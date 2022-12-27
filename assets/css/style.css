@@ -66,13 +66,13 @@ nav > ul > li a:hover {
 
 /* Our tours section */
 
-#our-tours {
+/* #our-tours {
     font-weight: 700;
     font-size: 3rem;
     padding-left: 22rem;
-    padding-top: 0.3rem;
+    padding-top: 1.5rem;
     padding-bottom: 0.6rem;
-}
+} */
 
 #ghost-image {
     height: 20rem;    
@@ -81,6 +81,7 @@ nav > ul > li a:hover {
 }
 
 #ghosts-stratford {
+    padding-top: 1.5rem;
     padding-left: 3rem;
     font-size: 3rem;
     padding-bottom: 0.6rem;
@@ -117,7 +118,7 @@ nav > ul > li a:hover {
     font-weight: 700;
     font-size: 3rem;
     padding-left: 20rem;
-    padding-top: 1rem;
+    padding-top: 1.5rem;
     padding-bottom: 0.6rem;    
 }
 
@@ -150,7 +151,7 @@ nav > ul > li a:hover {
 #sign-up-heading {
     padding-right: 3rem;
     font-size: 3rem;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
     padding-bottom: 1rem;
 }
 
