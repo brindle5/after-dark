@@ -2,7 +2,7 @@
 
 After Dark Tours: Stratford-upon-Avon is a website aimed at visitors and tourists who are interesting in the dark, creepy and disturbing history of the area. Much of the marketing aimed at visitors to Stratford centres around Shakespeare’s birthplace, the theatre, or its many pretty streets and quaint buildings. However, there is a market for people who want an alternative experience and that is what After Dark Tours aims to provide. The site’s objective is to entice visitors to the website to sign up for one of the tours based around the less palatable side of a famous tourist town, including hauntings, murders and other grisly occurences. 
 
-![Responsive design screenshot](documentation/responsive_screenshot.png)
+![Responsive design screenshot]()
 
 ## **UX**
 
@@ -88,7 +88,7 @@ Mobile phones (screens from 320px to 480px)
 
 Tablet computers (screens from 481px to 768px)
 
-![Tblet screenshot](documentation/tablet_screenshot.png)
+![Tablet screenshot](documentation/tablet_screenshot.png)
 
 Laptops (screens from 769px to 1024px)
 

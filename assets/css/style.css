@@ -27,9 +27,10 @@ body {
 
 #heading {
     font-weight: 700;
-    letter-spacing: 0.2rem;
-    font-size: 4vw;
-    padding: 1rem;
+    letter-spacing: 0.2rem;    
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
 }
 
 #slogan {
@@ -224,4 +225,53 @@ footer > ul {
 }
 
 /* Media queries */
+
+/* Screens up to 480 pixels */
+
+@media screen and (max-width: 480px) {
+
+    .display {
+        flex-direction: column;
+    }
+
+    #heading {
+        padding: 1rem;
+    }
+
+    #slogan {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+
+    #ghosts-stratford {
+        padding-left: 1.5rem;        
+    }
+
+    #ghosts-stratford-info {
+        padding-left: 1.5rem;
+    }
+
+   #murder-stratford {
+        padding-left: 1.5rem;
+   }
+
+    #murder-stratford-info {
+        padding-bottom: 2rem;
+        padding-left: 1.5rem;
+    }
+
+    #about-us-heading {
+        padding-left: 1.5rem;
+    }
+
+    #team-background {
+        padding-left: 1.5rem;
+    }
+
+    #sign-up-heading {
+        font-size: 2rem;
+    }
+}
+    
+
 
