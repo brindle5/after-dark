@@ -226,7 +226,7 @@ footer > ul {
 
 /* Media queries */
 
-/* Screens up to 480 pixels */
+/* Screens for mobiles and devices up to 480 pixels */
 
 @media screen and (max-width: 480px) {
 
@@ -272,6 +272,34 @@ footer > ul {
         font-size: 2rem;
     }
 }
+
+/* Screens for tablet computers and devices from 481 pixels to 768 pixels */
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .display {
+        flex-direction: column;
+    }
+
+    #ghosts-stratford-info, #murder-stratford-info {
+        padding: 1rem;
+    }
+
+    #murder-image, #ghost-image {
+        height: auto;
+    }
+
+    #about-us-heading {
+        padding-left: 10rem;
+    }
+    
+    #team-background {
+        padding: 1rem;
+    }
+    
+    /* #sign-up-image */
+}
     
 
 
+/* Laptops and small computers from 769 pixels to 1024pixesls */
