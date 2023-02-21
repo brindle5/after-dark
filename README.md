@@ -171,7 +171,6 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 The photos are from [pexels.com](https://www.pexels.com/) and [unsplash.com](https://unsplash.com/).
 
-* [creepy_church.jpg](https://www.pexels.com/photo/photo-of-church-during-daytime-3321255/)
 * [ghosts.jpg](https://unsplash.com/photos/MTI-La8-eTA)
 * [tower_of_bones.jpg](https://www.pexels.com/photo/decoration-made-with-human-skulls-4997839/)
 * [scary_faces.jpg](https://www.pexels.com/photo/lighted-jack-o-lantern-decors-619420/)
